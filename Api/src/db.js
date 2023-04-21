@@ -13,7 +13,7 @@ const modelTransactions = require('./models/Transactions.js');
 const modelFavorites = require('./models/Favorites.js')
 
 const db = new Sequelize(
-   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`,
+   `PGPASSWORD=4UnX8X9LnMc6oeGP0nru psql -h containers-us-west-161.railway.app -U postgres -p 7402 -d railway`,
    {
       logging: false,
    }

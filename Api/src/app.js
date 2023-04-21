@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const router = require('./routes/index')
 require('dotenv').config();
 const {
-  CLIENT_ID, DOMAIN, CLIENT_SECRET, BASE_URL
+  CLIENT_ID, DOMAIN, CLIENT_SECRET, BASE_URL,
 } = process.env;
 // Middlewares
 const app = express()
