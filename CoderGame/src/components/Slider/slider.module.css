@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    margin: 1px;
+    padding: 1px;
+}
